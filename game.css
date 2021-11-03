@@ -1,0 +1,87 @@
+h1 {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 25px;
+}
+
+p {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+button {
+  background-color: rgb(110, 110, 110);
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 25px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: rgb(110, 110, 110);
+}
+
+#bear {
+  position: absolute;
+  left: 100px;
+  /*top: 240px;*/
+  width: 100px;
+  height: 160px;
+}
+
+#board {
+  position: absolute;
+  height: 600px;
+  width: 1200px;
+  background-color: rgb(6, 136, 119);
+  align-content: center;
+  align-self: center;
+}
+
+#title {
+  background-color: rgb(128, 128, 128);
+  align-content: center;
+  align-self: center;
+}
+
+#scores {
+  background-color: rgb(136, 100, 46);
+  width: 1200px;
+  align-content: center;
+  align-self: center;
+}
+
+.location {
+  color: green;
+}
+
+#gameOver {
+  visibility: hidden;
+}
+
+#hits {
+  color: red;
+}
+
+#duration {
+  color: blue;
+}

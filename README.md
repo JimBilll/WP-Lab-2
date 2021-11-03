@@ -1,2 +1,2 @@
-# WP-Lab-2
+# Web-Programming-Lab-2
 Created with CodeSandbox
